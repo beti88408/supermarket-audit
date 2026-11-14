@@ -20,7 +20,7 @@ NUMC = ["unit_price", "quantity", "tax_5", "total", "cogs", "gross_margin_percen
 CRIT = ["invoice_id", "unit_price", "quantity", "total", "cogs"]
 CATC = ["branch", "city", "customer_type", "gender", "product_line", "payment"]
 ALIAS = {"tax": "tax_5", "tax5": "tax_5", "tax_5_percent": "tax_5", "invoice": "invoice_id", "gross_margin": "gross_margin_percentage",
-         "customer": "customer_type", "productline": "product_line"}
+         "customer": "customer_type", "productline": "product_line", "sales": "total", "total_sales": "total"}
 
 
 # ------------------------------------------------------------------ LLM client
