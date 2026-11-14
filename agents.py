@@ -10,8 +10,8 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 
-MODELS = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768"]
-FALLBACK = "llama-3.1-8b-instant"
+MODELS = ["llama-3.3-70b-versatile", "llama-3.3-70b-versatile", "mixtral-8x7b-32768"]
+FALLBACK = "llama-3.3-70b-versatile"
 _LAST_CALL = [0.0]
 
 REQ = ["invoice_id", "branch", "city", "customer_type", "gender", "product_line", "unit_price", "quantity", "tax_5",
