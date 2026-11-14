@@ -10,8 +10,8 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 
-MODELS = ["llama-3.3-70b-versatile", "llama-3.3-70b-versatile", "mixtral-8x7b-32768"]
-FALLBACK = "llama-3.3-70b-versatile"
+MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3-32b", "meta-llama/llama-4-scout-17b-16e-instruct"]
+FALLBACK = "openai/gpt-oss-20b"
 _LAST_CALL = [0.0]
 
 REQ = ["invoice_id", "branch", "city", "customer_type", "gender", "product_line", "unit_price", "quantity", "tax_5",
